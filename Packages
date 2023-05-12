@@ -1,0 +1,134 @@
+Package: libactivator
+Name: Activator
+Architecture: iphoneos-arm
+Version: 1.9.13~beta5
+Description: Centralized gestures, button and shortcut management for iOS
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Author: Ryan Petrich
+Section: System
+Filename: ./debs/libactivator_1.9.13_rc5_iphoneos-arm.deb
+Size: 924640
+MD5sum: 7e83ab221425a8cab3db91b418a9eb9d
+SHA1: 9001b5d972d3d6ba8c9979c66f3e663c998d436b
+SHA256: 34935cca8f1f3e95bd5b550386227d5ebc52940d5021f4386c05198dc2576250
+Depends: com.a3tweaks.flipswitch
+
+Package: com.a3tweaks.flipswitch
+Name: Flipswitch
+Architecture: iphoneos-arm
+Version: 1.0.16~beta5
+Description: Centralized toggle system for iOS
+Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
+Author: Ryan Petrich
+Section: System
+Filename: ./debs/com.a3tweaks.flipswitch_1.0.16_rc3_iphoneos-arm.deb
+Size: 301098
+MD5sum: 6aa1da6c359b385e715cc8a71aa64364
+SHA1: 23618f385d41c2624fc09a60e9f554f3f8faff24
+SHA256: a13a6928248a41a6b81b1faec9703f4e7af9aedcede5ef11dbd71dbd22fc58ec
+
+Package: com.rbt.useragentchanger
+Name: User Agent Changer
+Architecture: iphoneos-arm
+Version: 1.1.10
+Description: Change your Browser's User Agent.
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Author: ModMyi
+Section: Tweaks
+Filename: ./debs/com.rbt.useragentchanger_1.1.10_iphoneos-arm.deb
+Size: 53436
+MD5sum: cc29085d77d7a54902e273d059e136f4
+SHA1: 1565f739ac95bac2c853ae43d869b19098e5d986
+SHA256: 19772a47fca9829a32376a6f3bab9fb34da713ea4a42c06214977a964f31c4fd
+
+Package: com.ryleyangus.libertylite
+Name: Liberty Lite (Beta)
+Architecture: iphoneos-arm
+Version: 0.2.11
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported. 32-bit support is currently disabled.
+Maintainer: Ryley Angus
+Author: Ryley Angus
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Filename: ./debs/LibertyLite0211.deb
+Size: 53542
+MD5sum: 4f1f62459646a035ad95a1bce4de055e
+SHA1: dce789b9e50a34ebcc729115c22cc14f5c70fa55
+SHA256: e00e1de832e275e46de2f82bbaaeb5cd96f85d148e82f89880daf9e7d087a205
+Depends: mobilesubstrate,firmware (>= 11.0)
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+
+Package: lsof
+Name: lsof
+Architecture: iphoneos-arm
+Version: 33-1
+Description: shows what files programs have open
+Maintainer: Bingner/Elucubratus
+Author: Bingner/Elucubratus
+Section: Administration
+Filename: ./debs/lsof_33-1_iphoneos-arm.deb
+Size: 42480
+MD5sum: a8c741bc977101f5f43d847d1f6ae193
+SHA1: 5a736bb0403eaaa6c949d239e5ccf55b1c400360
+SHA256: 5fe074dac1ffb5704426639d514f15f8091217571fe75875ad2f4c86299dc97c
+Depends: ncurses, cy+cpu.arm64
+
+Package: 12act
+Name: 12act
+Architecture: iphoneos-arm
+Version: 1.0
+Description: 12ac-t12act12act12act12act12act12act12act12act12act12act12act12act12act
+Maintainer: 12act 
+Author: 12act 
+Section: System
+Filename: ./debs/com.lynguyen.12act-uncover_1.0_iphoneos-arm.deb
+Size: 4376
+MD5sum: b5e800270a8083ee98d69e4e0e9904c0
+SHA1: 53f7499a4561d43f1d0e545f2d96de163c1f7392
+SHA256: 73fbba8cedaf3a9f413f686c3d403bf13098a7152fea5a584a409f77148d3b44
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist,cy+cpu.arm64,mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap (>= 1.0.6) | firmware (<< 7.0),libactivator,com.rbt.useragentchanger,com.rpetrich.rocketbootstrap, com.a3tweaks.flipswitch, preferenceloader, applist,openssh,applist,sudo,jetslammed,curl,network-cmds,lsof
+
+Package: 12ipa
+Name: 12ipa
+Architecture: iphoneos-arm
+Version: 1.1-1
+Description: 12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa
+Maintainer: 12ipa 
+Author: 12ipa 
+Section: Utilities
+Filename: ./debs/com.atl.ipa-sileo12_1.1-1_iphoneos-arm.deb
+Size: 59320
+MD5sum: a9770dca2370af15f03b812b8f91dc7e
+SHA1: 8cefa000880f4e5e4f1f7fdd47837febb27df3a5
+SHA256: afa1b6f77cf4c84f52550b14120de10cc72fabce6a2146866e1ec905aa88b393
+Pre-depends: mobilesubstrate,com.rpetrich.rocketbootstrap,openssh,applist,sudo,jetslammed,curl,network-cmds,firmware (>= 6.0), mobilesubstrate, preferenceloader, applist,cy+cpu.arm64,mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap (>= 1.0.6) | firmware (<< 7.0),firmware (>= 4.0), gsc.armv7
+
+Package: com.lyxaben.AutoLeadHelperYTB
+Name: AutoLeadHelperYTB
+Architecture: iphoneos-arm
+Version: 1.0-210
+Description: AutoLeadHelperYTB for YTB by lyxaben
+Maintainer: AutoLeadHelperYTB 
+Author: AutoLeadHelperYTB 
+Section: Tweaks
+Filename: ./debs/com.lyxaben.AutoLeadHelperYTB_1.0-210_iphoneos-arm.deb
+Size: 369280
+MD5sum: 054c1ec35b495c75f17b1acb5c53d348
+SHA1: 67cb06b544e4c216e1ae41659cedd9fdb948c9c2
+SHA256: b2f362a0ae01c67214c6d605611b9565fe61cf4d73010e604f0058ef82160e93
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap
+
+Package: com.lyxaben.AtlTeamhookYTB
+Name: AtlTeamhookYTB
+Architecture: iphoneos-arm
+Version: 1.0-14
+Description: AtlTeamhookYTB for YTB by lyxaben
+Maintainer: AtlTeamhookYTB 
+Author: AtlTeamhookYTB 
+Section: Tweaks
+Filename: ./debs/com.lyxaben.AtlTeamhookYTB_1.0-14_iphoneos-arm.deb
+Size: 21416
+MD5sum: b856ddf6e9ec0f48f15a627b4f9f6ff8
+SHA1: 93bd162eff2d92de86f9336cd553a0951a773210
+SHA256: 0e3f4581676f4ece0a478d193b4f1e73ee2c6b9fa56235614ee1cb45857499a6
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
